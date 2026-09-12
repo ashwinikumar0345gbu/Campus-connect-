@@ -1,1 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>CampusConnect | Connect. Learn. Grow.</title>
+
+    <meta name="description"
+          content="CampusConnect - A modern social platform for students.">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <div class="nav-left">
+
+            <a href="#" class="brand">
+                <span class="brand-icon">C</span>
+                <span>CampusConnect</span>
+            </a>
+
+        </div>
+
+        <nav class="nav-links">
+
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#communities">Communities</a>
+            <a href="#about">About</a>
+
+        </nav>
+
+        <div class="nav-actions">
+
+            <button class="theme-btn" onclick="toggleTheme()">
+                🌙
+            </button>
+
+            <button class="login-btn" onclick="openLogin()">
+                Login
+            </button>
+
+            <button class="signup-btn" onclick="openSignup()">
+                Get Started
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <main id="home">
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <div class="badge">
+                    🎓 Built for the next generation of students
+                </div>
+
+                <h1>
+                    Your Campus.
+                    <span>Your Community.</span>
+                    Your Future.
+                </h1>
+
+                <p>
+                    Connect with classmates, join communities,
+                    share knowledge, discover events and grow
+                    together — all in one place.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <button class="primary-btn" onclick="openSignup()">
+                        Join CampusConnect →
+                    </button>
+
+                    <button class="secondary-btn"
+                            onclick="scrollToFeatures()">
+                        Explore Features
+                    </button>
+
+                </div>
+
+                <div class="hero-stats">
+
+                    <div>
+                        <strong>10K+</strong>
+                        <span>Students</span>
+                    </div>
+
+                    <div>
+                        <strong>500+</strong>
+                        <span>Communities</span>
+                    </div>
+
+                    <div>
+                        <strong>100+</strong>
+                        <span>Colleges</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Modern App Preview -->
+
+            <div class="hero-preview">
+
+                <div class="app-window">
+
+                    <div class="app-top">
+
+                        <div class="window-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <span>CampusConnect</span>
+
+                        <span>•••</span>
+
+                    </div>
+
+
+                    <div class="app-body">
+
+                        <aside class="mini-sidebar">
+
+                            <div class="mini-logo">C</div>
+
+                            <div class="mini-menu active">
+                                🏠
+                            </div>
+
+                            <div class="mini-menu">
+                                👥
+                            </div>
+
+                            <div class="mini-menu">
+                                💬
+                            </div>
+
+                            <div class="mini-menu">
+                                🔔
+                            </div>
+
+                            <div class="mini-menu">
+                                👤
+                            </div>
+
+                        </aside>
+
+
+                        <div class="mini-feed">
+
+                            <div class="feed-title">
+
+                                <div>
+                                    <h3>Good evening 👋</h3>
+                                    <p>What's happening on campus?</p>
+                                </div>
+
+                                <div class="avatar">
+                                    AK
+                                </div>
+
+                            </div>
+
+
+                            <div class="post-box">
+
+                                <div class="post-user">
+
+                                    <div class="avatar small">
+                                        AK
+                                    </div>
+
+                                    <span>
+                                        Share something...
+                                    </span>
+
+                                </div>
+
+                                <div class="post-tools">
+
+                                    <span>📷 Photo</span>
+                                    <span>📅 Event</span>
+                                    <span>📚 Notes</span>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="mini-post">
+
+                                <div class="post-head">
+
+                                    <div class="avatar small">
+                                        RK
+                                    </div>
+
+                                    <div>
+                                        <strong>Rahul Kumar</strong>
+                                        <small>2h ago · BCA</small>
+                                    </div>
+
+                                </div>
+
+                                <p>
+                                    Anyone interested in joining
+                                    the upcoming coding community? 💻
+                                </p>
+
+                                <div class="post-actions">
+                                    <span>❤️ 128</span>
+                                    <span>💬 24</span>
+                                    <span>↗ Share</span>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FEATURES ================= -->
+
+        <section class="features-section" id="features">
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    EVERYTHING YOU NEED
+                </span>
+
+                <h2>
+                    More than just a social network.
+                </h2>
+
+                <p>
+                    Everything students need to connect,
+                    learn and grow together.
+                </p>
+
+            </div>
+
+
+            <div class="features-grid">
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">💬</div>
+
+                    <h3>Connect & Chat</h3>
+
+                    <p>
+                        Chat with classmates, friends and
+                        students from your college.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">👥</div>
+
+                    <h3>Communities</h3>
+
+                    <p>
+                        Join coding, sports, cultural,
+                        NCC, NSS and other communities.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">📚</div>
+
+                    <h3>Learn Together</h3>
+
+                    <p>
+                        Share notes, ask questions and
+                        learn from your college community.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">📅</div>
+
+                    <h3>Campus Events</h3>
+
+                    <p>
+                        Discover hackathons, workshops,
+                        competitions and college events.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">🚀</div>
+
+                    <h3>Opportunities</h3>
+
+                    <p>
+                        Find internships, scholarships,
+                        jobs and exciting opportunities.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">✨</div>
+
+                    <h3>AI Powered</h3>
+
+                    <p>
+                        Get smart recommendations and
+                        AI-powered student assistance.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= COMMUNITIES ================= -->
+
+        <section class="community-section" id="communities">
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    FIND YOUR COMMUNITY
+                </span>
+
+                <h2>
+                    There's a place for everyone.
+                </h2>
+
+            </div>
+
+
+            <div class="community-grid">
+
+                <div class="community-card">
+                    <span>💻</span>
+                    <h3>Coding Club</h3>
+                    <p>Build • Code • Innovate</p>
+                </div>
+
+                <div class="community-card">
+                    <span>✈️</span>
+                    <h3>NCC Community</h3>
+                    <p>Discipline • Service • Nation</p>
+                </div>
+
+                <div class="community-card">
+                    <span>🤝</span>
+                    <h3>NSS Community</h3>
+                    <p>Not Me But You</p>
+                </div>
+
+                <div class="community-card">
+                    <span>🎨</span>
+                    <h3>Cultural Club</h3>
+                    <p>Create • Perform • Celebrate</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CTA ================= -->
+
+        <section class="cta-section" id="about">
+
+            <div>
+
+                <span class="section-label">
+                    READY TO CONNECT?
+                </span>
+
+                <h2>
+                    Your campus community
+                    starts here.
+                </h2>
+
+                <p>
+                    Join CampusConnect and make your
+                    college life more connected.
+                </p>
+
+                <button class="primary-btn"
+                        onclick="openSignup()">
+                    Create Your Account →
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-brand">
+            <span class="brand-icon">C</span>
+            <strong>CampusConnect</strong>
+        </div>
+
+        <p>
+            © 2026 CampusConnect. Built for students.
+        </p>
+
+    </footer>
+
+
+    <!-- ================= LOGIN MODAL ================= -->
+
+    <div class="modal" id="loginModal">
+
+        <div class="modal-box">
+
+            <button class="close-btn"
+                    onclick="closeModal('loginModal')">
+                ×
+            </button>
+
+            <div class="modal-logo">C</div>
+
+            <h2>Welcome Back</h2>
+
+            <p>Login to your CampusConnect account.</p>
+
+            <input type="email"
+                   placeholder="Email address">
+
+            <input type="password"
+                   placeholder="Password">
+
+            <button class="modal-btn">
+                Login
+            </button>
+
+            <small>
+                Don't have an account?
+                <a href="#" onclick="openSignup()">Sign up</a>
+            </small>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= SIGNUP MODAL ================= -->
+
+    <div class="modal" id="signupModal">
+
+        <div class="modal-box">
+
+            <button class="close-btn"
+                    onclick="closeModal('signupModal')">
+                ×
+            </button>
+
+            <div class="modal-logo">C</div>
+
+            <h2>Join CampusConnect</h2>
+
+            <p>Create your student account.</p>
+
+            <input type="text"
+                   placeholder="Full name">
+
+            <input type="email"
+                   placeholder="Email address">
+
+            <input type="password"
+                   placeholder="Create password">
+
+            <button class="modal-btn">
+                Create Account
+            </button>
+
+            <small>
+                By continuing, you agree to our terms.
+            </small>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
